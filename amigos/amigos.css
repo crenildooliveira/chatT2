@@ -1,0 +1,36 @@
+/* amigos.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#amigos-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.amigo {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amigo-details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adapte o estilo conforme necessário */
